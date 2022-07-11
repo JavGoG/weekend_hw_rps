@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+    {% block content %}
+    <ul>
+
+        <div>
+        <form action="<choice_1>/<choice_2>" method="post">
+            <label for="play">Choose!</label>
+                <select name="play" id="play">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    </ul>    
+    {% endblock %}
